@@ -1,7 +1,7 @@
 # Puppet manifest for my PHP dev machine
 class phpdevweb{
 	require yum
-	include iptables
+	#include iptables
 	#include rpmforge
 	include misc
 	include httpd
