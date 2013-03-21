@@ -36,7 +36,7 @@ class phpdev {
   ensure  => present,
   }
 
-  package { "libjpeg-devel":
+  package { "libjpeg-turbo-devel":
   ensure  => present,
   }
 
