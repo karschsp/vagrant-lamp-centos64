@@ -1,8 +1,8 @@
 class php {
 
   File {
-    owner   => "vagrant",
-    group   => "vagrant",
+    owner   => "root",
+    group   => "root",
     mode    => 644,
     require => Package["httpd"],
     notify  => Service["httpd"]
